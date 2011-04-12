@@ -5,5 +5,5 @@ version: 0.1
 author_name: Alfasado Inc.
 author_link: http://alfasado.net/
 l10n_class: NumericFields::L10N
-description: <__trans phrase="Additional types of custom fields : Integer and Float.">
+description: '<__trans phrase="Additional types of custom fields : Integer and Float.">'
 customfield_types: $numericfields::NumericFields::Field::_customfield_types
