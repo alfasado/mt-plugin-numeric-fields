@@ -23,7 +23,7 @@ sub _customfield_types {
 
 sub _field_html {
     return <<'MTML';
-                <input type="text" name="<mt:var name="field_name" escape="html">" id="<mt:var name="field_id">" value="<mt:var name="field_value" escape="html">" class="full-width ti" />
+                <input type="text" style="width:100px" name="<mt:var name="field_name" escape="html">" id="<mt:var name="field_id">" value="<mt:var name="field_value" escape="html">" class="text num full-width ti" />
 MTML
 }
 
